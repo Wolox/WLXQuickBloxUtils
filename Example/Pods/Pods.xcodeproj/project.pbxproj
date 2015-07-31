@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CE4446F01455AE826B43C74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 975DB0E8E693A60191D12098 /* Foundation.framework */; };
+		2D51DAEC1B6BDDAE00D34E47 /* WLXQuickBloxUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D51DAEA1B6BDDAE00D34E47 /* WLXQuickBloxUtils.h */; };
+		2D51DAED1B6BDDAE00D34E47 /* WLXQuickBloxUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D51DAEB1B6BDDAE00D34E47 /* WLXQuickBloxUtils.m */; };
+		3804AE63B1A230258E7398E8 /* Pods-WLXQuickBloxUtils_Tests-WLXQuickBloxUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB9ED23005C67DFF13D44D4 /* Pods-WLXQuickBloxUtils_Tests-WLXQuickBloxUtils-dummy.m */; };
+		4C53807F77ADB712A3C0FA29 /* Pods-WLXQuickBloxUtils_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E88CAD91023D0D49DF65F71 /* Pods-WLXQuickBloxUtils_Tests-dummy.m */; };
+		7B03B8AB251846C4C71AEA05 /* Pods-WLXQuickBloxUtils_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 80048DABC3332D94D3916AFB /* Pods-WLXQuickBloxUtils_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7602CAE0449C570966997F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 975DB0E8E693A60191D12098 /* Foundation.framework */; };
+		F27E589700FC7D4C26F4E267 /* WLXQuickBloxUtils.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 61DC75F120CB2001D200DA0E /* WLXQuickBloxUtils.bundle */; };
+		FA66E14F9DD3219940DD2D87 /* Pods-WLXQuickBloxUtils_Tests-WLXQuickBloxUtils-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 334FE536B4BCC41F2A04194D /* Pods-WLXQuickBloxUtils_Tests-WLXQuickBloxUtils-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7060C6A174275A2C28CFFAAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CBAAE263DA59D1132321741 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF547B5E8A391DCB8BBDE340;
+			remoteInfo = "Pods-WLXQuickBloxUtils_Tests-WLXQuickBloxUtils-WLXQuickBloxUtils";
+		};
+		AB49BB551EB9E198B011EFAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CBAAE263DA59D1132321741 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA90A201446F6866173D8BDF;
+			remoteInfo = "Pods-WLXQuickBloxUtils_Tests-WLXQuickBloxUtils";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12F7798202E9E809BF61A65B /* Pods-WLXQuickBloxUtils_Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WLXQuickBloxUtils_Tests-environment.h"; sourceTree = "<group>"; };
+		27338C9248AFA88E77A09107 /* Pods_WLXQuickBloxUtils_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WLXQuickBloxUtils_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D51DAEA1B6BDDAE00D34E47 /* WLXQuickBloxUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLXQuickBloxUtils.h; sourceTree = "<group>"; };
+		2D51DAEB1B6BDDAE00D34E47 /* WLXQuickBloxUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLXQuickBloxUtils.m; sourceTree = "<group>"; };
+		334FE536B4BCC41F2A04194D /* Pods-WLXQuickBloxUtils_Tests-WLXQuickBloxUtils-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WLXQuickBloxUtils_Tests-WLXQuickBloxUtils-umbrella.h"; sourceTree = "<group>"; };
+		42B17F1F330827FCF0CE7F52 /* Pods-WLXQuickBloxUtils_Tests-WLXQuickBloxUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WLXQuickBloxUtils_Tests-WLXQuickBloxUtils-prefix.pch"; sourceTree = "<group>"; };
+		5A0EC9CDA6A960B452CA21E4 /* Pods-WLXQuickBloxUtils_Tests-WLXQuickBloxUtils.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WLXQuickBloxUtils_Tests-WLXQuickBloxUtils.xcconfig"; sourceTree = "<group>"; };
+		5E88CAD91023D0D49DF65F71 /* Pods-WLXQuickBloxUtils_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WLXQuickBloxUtils_Tests-dummy.m"; sourceTree = "<group>"; };
+		61DC75F120CB2001D200DA0E /* WLXQuickBloxUtils.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WLXQuickBloxUtils.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		684F23A02A09F02BF896ED73 /* Pods-WLXQuickBloxUtils_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WLXQuickBloxUtils_Tests-resources.sh"; sourceTree = "<group>"; };
+		786BD3222E8F4CCFAAB2BC11 /* Pods-WLXQuickBloxUtils_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WLXQuickBloxUtils_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		80048DABC3332D94D3916AFB /* Pods-WLXQuickBloxUtils_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WLXQuickBloxUtils_Tests-umbrella.h"; sourceTree = "<group>"; };
+		859EE7A9BD179BD88606CB33 /* Pods-WLXQuickBloxUtils_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WLXQuickBloxUtils_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		86C54E58F9E850DDF8862262 /* Pods-WLXQuickBloxUtils_Tests-WLXQuickBloxUtils-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WLXQuickBloxUtils_Tests-WLXQuickBloxUtils-Private.xcconfig"; sourceTree = "<group>"; };
+		975DB0E8E693A60191D12098 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		99AD96A6D85FEF0B3D56E4DF /* Pods-WLXQuickBloxUtils_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WLXQuickBloxUtils_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C2E72B2407BA238F79EF9554 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C61BD8FDCCAAC4959A952661 /* Pods-WLXQuickBloxUtils_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WLXQuickBloxUtils_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C82C3B0855D200D1A0ACD55D /* Pods-WLXQuickBloxUtils_Tests-WLXQuickBloxUtils.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-WLXQuickBloxUtils_Tests-WLXQuickBloxUtils.modulemap"; sourceTree = "<group>"; };
+		CCB9ED23005C67DFF13D44D4 /* Pods-WLXQuickBloxUtils_Tests-WLXQuickBloxUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WLXQuickBloxUtils_Tests-WLXQuickBloxUtils-dummy.m"; sourceTree = "<group>"; };
+		EA53B2EA437D58924B6B51AB /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EAA8BACCB2EE3305DC54F533 /* WLXQuickBloxUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WLXQuickBloxUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF4A5A8E7F0927F4B59EE572 /* Pods-WLXQuickBloxUtils_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-WLXQuickBloxUtils_Tests.modulemap"; sourceTree = "<group>"; };
+		EFE584756841A6941626638B /* Pods-WLXQuickBloxUtils_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WLXQuickBloxUtils_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		FE72C87E4EF7BE644E683E1B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07F8DAAE58F9FA1E206C4828 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CE4446F01455AE826B43C74 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E90F6A8CE417D51FF2F0D39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75A384685062C1FF26DD8B7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7602CAE0449C570966997F3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		257D5ADEBB9D123C82DBF0D0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2E72B2407BA238F79EF9554 /* Info.plist */,
+				C82C3B0855D200D1A0ACD55D /* Pods-WLXQuickBloxUtils_Tests-WLXQuickBloxUtils.modulemap */,
+				5A0EC9CDA6A960B452CA21E4 /* Pods-WLXQuickBloxUtils_Tests-WLXQuickBloxUtils.xcconfig */,
+				86C54E58F9E850DDF8862262 /* Pods-WLXQuickBloxUtils_Tests-WLXQuickBloxUtils-Private.xcconfig */,
+				CCB9ED23005C67DFF13D44D4 /* Pods-WLXQuickBloxUtils_Tests-WLXQuickBloxUtils-dummy.m */,
+				42B17F1F330827FCF0CE7F52 /* Pods-WLXQuickBloxUtils_Tests-WLXQuickBloxUtils-prefix.pch */,
+				334FE536B4BCC41F2A04194D /* Pods-WLXQuickBloxUtils_Tests-WLXQuickBloxUtils-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-WLXQuickBloxUtils_Tests-WLXQuickBloxUtils";
+			sourceTree = "<group>";
+		};
+		270D5E9897523E14C7165E0F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				975DB0E8E693A60191D12098 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		46357A30EC89472FACD374B8 = {
+			isa = PBXGroup;
+			children = (
+				EA53B2EA437D58924B6B51AB /* Podfile */,
+				95025D95878C1713939B1DFD /* Development Pods */,
+				BCA98E7D2894D97DEC39A1D6 /* Frameworks */,
+				F6B893BD9AAD70FC8EE67C34 /* Products */,
+				A6F0157BC6F0FC9C596BF4EF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		536CD7420F56A43C0EB289A4 /* WLXQuickBloxUtils */ = {
+			isa = PBXGroup;
+			children = (
+				612DBC05603EE305C7792888 /* Pod */,
+				257D5ADEBB9D123C82DBF0D0 /* Support Files */,
+			);
+			name = WLXQuickBloxUtils;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		612DBC05603EE305C7792888 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				9CC9545E9FC181430D6E85B8 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		63BD849DC592C41866D2E927 /* Pods-WLXQuickBloxUtils_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FE72C87E4EF7BE644E683E1B /* Info.plist */,
+				EF4A5A8E7F0927F4B59EE572 /* Pods-WLXQuickBloxUtils_Tests.modulemap */,
+				C61BD8FDCCAAC4959A952661 /* Pods-WLXQuickBloxUtils_Tests-acknowledgements.markdown */,
+				859EE7A9BD179BD88606CB33 /* Pods-WLXQuickBloxUtils_Tests-acknowledgements.plist */,
+				5E88CAD91023D0D49DF65F71 /* Pods-WLXQuickBloxUtils_Tests-dummy.m */,
+				12F7798202E9E809BF61A65B /* Pods-WLXQuickBloxUtils_Tests-environment.h */,
+				EFE584756841A6941626638B /* Pods-WLXQuickBloxUtils_Tests-frameworks.sh */,
+				684F23A02A09F02BF896ED73 /* Pods-WLXQuickBloxUtils_Tests-resources.sh */,
+				80048DABC3332D94D3916AFB /* Pods-WLXQuickBloxUtils_Tests-umbrella.h */,
+				786BD3222E8F4CCFAAB2BC11 /* Pods-WLXQuickBloxUtils_Tests.debug.xcconfig */,
+				99AD96A6D85FEF0B3D56E4DF /* Pods-WLXQuickBloxUtils_Tests.release.xcconfig */,
+			);
+			name = "Pods-WLXQuickBloxUtils_Tests";
+			path = "Target Support Files/Pods-WLXQuickBloxUtils_Tests";
+			sourceTree = "<group>";
+		};
+		95025D95878C1713939B1DFD /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				536CD7420F56A43C0EB289A4 /* WLXQuickBloxUtils */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		9CC9545E9FC181430D6E85B8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2D51DAEA1B6BDDAE00D34E47 /* WLXQuickBloxUtils.h */,
+				2D51DAEB1B6BDDAE00D34E47 /* WLXQuickBloxUtils.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A6F0157BC6F0FC9C596BF4EF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				63BD849DC592C41866D2E927 /* Pods-WLXQuickBloxUtils_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BCA98E7D2894D97DEC39A1D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				270D5E9897523E14C7165E0F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F6B893BD9AAD70FC8EE67C34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27338C9248AFA88E77A09107 /* Pods_WLXQuickBloxUtils_Tests.framework */,
+				61DC75F120CB2001D200DA0E /* WLXQuickBloxUtils.bundle */,
+				EAA8BACCB2EE3305DC54F533 /* WLXQuickBloxUtils.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		EC20B170BEB0E224D8D99603 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA66E14F9DD3219940DD2D87 /* Pods-WLXQuickBloxUtils_Tests-WLXQuickBloxUtils-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F20AAD742DB4AE51E32A7738 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B03B8AB251846C4C71AEA05 /* Pods-WLXQuickBloxUtils_Tests-umbrella.h in Headers */,
+				2D51DAEC1B6BDDAE00D34E47 /* WLXQuickBloxUtils.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5707906BDF5120C24F845BE7 /* Pods-WLXQuickBloxUtils_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BE2A13B615052020F92553C /* Build configuration list for PBXNativeTarget "Pods-WLXQuickBloxUtils_Tests" */;
+			buildPhases = (
+				C0636AEE8DDF1127D6E2433B /* Sources */,
+				75A384685062C1FF26DD8B7C /* Frameworks */,
+				F20AAD742DB4AE51E32A7738 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E89C6D0F92BE3AE8B2F0FC2 /* PBXTargetDependency */,
+			);
+			name = "Pods-WLXQuickBloxUtils_Tests";
+			productName = "Pods-WLXQuickBloxUtils_Tests";
+			productReference = 27338C9248AFA88E77A09107 /* Pods_WLXQuickBloxUtils_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BA90A201446F6866173D8BDF /* Pods-WLXQuickBloxUtils_Tests-WLXQuickBloxUtils */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B43B667DEBE2F46DCB3E58A5 /* Build configuration list for PBXNativeTarget "Pods-WLXQuickBloxUtils_Tests-WLXQuickBloxUtils" */;
+			buildPhases = (
+				5BBDD4E67229D81BECDD05D5 /* Sources */,
+				07F8DAAE58F9FA1E206C4828 /* Frameworks */,
+				1BB225802FF7BDF4B1B35597 /* Resources */,
+				EC20B170BEB0E224D8D99603 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0CB92F7539AD7E405BD3004 /* PBXTargetDependency */,
+			);
+			name = "Pods-WLXQuickBloxUtils_Tests-WLXQuickBloxUtils";
+			productName = "Pods-WLXQuickBloxUtils_Tests-WLXQuickBloxUtils";
+			productReference = EAA8BACCB2EE3305DC54F533 /* WLXQuickBloxUtils.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DF547B5E8A391DCB8BBDE340 /* Pods-WLXQuickBloxUtils_Tests-WLXQuickBloxUtils-WLXQuickBloxUtils */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 963D2A83A161566739E74A3F /* Build configuration list for PBXNativeTarget "Pods-WLXQuickBloxUtils_Tests-WLXQuickBloxUtils-WLXQuickBloxUtils" */;
+			buildPhases = (
+				E9FB22B70BE8C73051400DCC /* Sources */,
+				3E90F6A8CE417D51FF2F0D39 /* Frameworks */,
+				8FD7D9DD91971AABCC9FE772 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-WLXQuickBloxUtils_Tests-WLXQuickBloxUtils-WLXQuickBloxUtils";
+			productName = "Pods-WLXQuickBloxUtils_Tests-WLXQuickBloxUtils-WLXQuickBloxUtils";
+			productReference = 61DC75F120CB2001D200DA0E /* WLXQuickBloxUtils.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1CBAAE263DA59D1132321741 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = 6DCA70450D6D3E7303946370 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 46357A30EC89472FACD374B8;
+			productRefGroup = F6B893BD9AAD70FC8EE67C34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5707906BDF5120C24F845BE7 /* Pods-WLXQuickBloxUtils_Tests */,
+				BA90A201446F6866173D8BDF /* Pods-WLXQuickBloxUtils_Tests-WLXQuickBloxUtils */,
+				DF547B5E8A391DCB8BBDE340 /* Pods-WLXQuickBloxUtils_Tests-WLXQuickBloxUtils-WLXQuickBloxUtils */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1BB225802FF7BDF4B1B35597 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F27E589700FC7D4C26F4E267 /* WLXQuickBloxUtils.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FD7D9DD91971AABCC9FE772 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BBDD4E67229D81BECDD05D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3804AE63B1A230258E7398E8 /* Pods-WLXQuickBloxUtils_Tests-WLXQuickBloxUtils-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0636AEE8DDF1127D6E2433B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D51DAED1B6BDDAE00D34E47 /* WLXQuickBloxUtils.m in Sources */,
+				4C53807F77ADB712A3C0FA29 /* Pods-WLXQuickBloxUtils_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9FB22B70BE8C73051400DCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0E89C6D0F92BE3AE8B2F0FC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-WLXQuickBloxUtils_Tests-WLXQuickBloxUtils";
+			target = BA90A201446F6866173D8BDF /* Pods-WLXQuickBloxUtils_Tests-WLXQuickBloxUtils */;
+			targetProxy = AB49BB551EB9E198B011EFAA /* PBXContainerItemProxy */;
+		};
+		C0CB92F7539AD7E405BD3004 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-WLXQuickBloxUtils_Tests-WLXQuickBloxUtils-WLXQuickBloxUtils";
+			target = DF547B5E8A391DCB8BBDE340 /* Pods-WLXQuickBloxUtils_Tests-WLXQuickBloxUtils-WLXQuickBloxUtils */;
+			targetProxy = 7060C6A174275A2C28CFFAAF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03F02A6CC754A8FF6B39C53A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86C54E58F9E850DDF8862262 /* Pods-WLXQuickBloxUtils_Tests-WLXQuickBloxUtils-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-WLXQuickBloxUtils_Tests-WLXQuickBloxUtils/Pods-WLXQuickBloxUtils_Tests-WLXQuickBloxUtils-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-WLXQuickBloxUtils_Tests-WLXQuickBloxUtils/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-WLXQuickBloxUtils_Tests-WLXQuickBloxUtils/Pods-WLXQuickBloxUtils_Tests-WLXQuickBloxUtils.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = WLXQuickBloxUtils;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0BE581EDFF1D0AA252BFEBD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99AD96A6D85FEF0B3D56E4DF /* Pods-WLXQuickBloxUtils_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WLXQuickBloxUtils_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-WLXQuickBloxUtils_Tests/Pods-WLXQuickBloxUtils_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_WLXQuickBloxUtils_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		17411E3906A42C0FE638A72B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 786BD3222E8F4CCFAAB2BC11 /* Pods-WLXQuickBloxUtils_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WLXQuickBloxUtils_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-WLXQuickBloxUtils_Tests/Pods-WLXQuickBloxUtils_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_WLXQuickBloxUtils_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		267A7616EDB13C1FE9A5B838 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86C54E58F9E850DDF8862262 /* Pods-WLXQuickBloxUtils_Tests-WLXQuickBloxUtils-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-WLXQuickBloxUtils_Tests-WLXQuickBloxUtils/Pods-WLXQuickBloxUtils_Tests-WLXQuickBloxUtils-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-WLXQuickBloxUtils_Tests-WLXQuickBloxUtils/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-WLXQuickBloxUtils_Tests-WLXQuickBloxUtils/Pods-WLXQuickBloxUtils_Tests-WLXQuickBloxUtils.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = WLXQuickBloxUtils;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		41241EA1C29A7760AB1512D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A0D91CE47FF0472308F1BF49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86C54E58F9E850DDF8862262 /* Pods-WLXQuickBloxUtils_Tests-WLXQuickBloxUtils-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-WLXQuickBloxUtils_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = WLXQuickBloxUtils;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		AEA4F384B01408679CFC2C04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86C54E58F9E850DDF8862262 /* Pods-WLXQuickBloxUtils_Tests-WLXQuickBloxUtils-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-WLXQuickBloxUtils_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = WLXQuickBloxUtils;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		EB04C58234AC6FB5DC4534BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6BE2A13B615052020F92553C /* Build configuration list for PBXNativeTarget "Pods-WLXQuickBloxUtils_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17411E3906A42C0FE638A72B /* Debug */,
+				0BE581EDFF1D0AA252BFEBD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DCA70450D6D3E7303946370 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB04C58234AC6FB5DC4534BB /* Debug */,
+				41241EA1C29A7760AB1512D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		963D2A83A161566739E74A3F /* Build configuration list for PBXNativeTarget "Pods-WLXQuickBloxUtils_Tests-WLXQuickBloxUtils-WLXQuickBloxUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0D91CE47FF0472308F1BF49 /* Debug */,
+				AEA4F384B01408679CFC2C04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B43B667DEBE2F46DCB3E58A5 /* Build configuration list for PBXNativeTarget "Pods-WLXQuickBloxUtils_Tests-WLXQuickBloxUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03F02A6CC754A8FF6B39C53A /* Debug */,
+				267A7616EDB13C1FE9A5B838 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1CBAAE263DA59D1132321741 /* Project object */;
+}

@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+pod 'ObjectiveSugar', '~> 1.1.0'
+pod 'QuickBlox', '~> 2.3.0.1'
+
+target 'WLXQuickBloxUtils_Tests', :exclusive => true do
+  pod "WLXQuickBloxUtils", :path => "../"
+
+  
+end

@@ -1,0 +1,14 @@
+PODS:
+  - WLXQuickBloxUtils (0.1.0)
+
+DEPENDENCIES:
+  - WLXQuickBloxUtils (from `../`)
+
+EXTERNAL SOURCES:
+  WLXQuickBloxUtils:
+    :path: ../
+
+SPEC CHECKSUMS:
+  WLXQuickBloxUtils: fba2a2e21468b0af0866f4e20e9c4c8156d8fc5a
+
+COCOAPODS: 0.37.2
