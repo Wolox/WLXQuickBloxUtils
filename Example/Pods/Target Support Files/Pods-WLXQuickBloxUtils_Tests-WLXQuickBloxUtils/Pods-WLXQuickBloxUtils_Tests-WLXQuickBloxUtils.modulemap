@@ -1,0 +1,6 @@
+framework module WLXQuickBloxUtils {
+  umbrella header "Pods-WLXQuickBloxUtils_Tests-WLXQuickBloxUtils-umbrella.h"
+
+  export *
+  module * { export * }
+}
